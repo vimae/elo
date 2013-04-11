@@ -18,6 +18,9 @@ module Elo
 
 		# The second Elo::Player.
     attr_reader :two
+    
+    		# Added to keep track of games
+    attr_writer :game_time
 
     # Every time a result is set, it tells the Elo::Player
 		# objects to update their scores.
