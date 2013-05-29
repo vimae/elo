@@ -21,6 +21,10 @@ module Elo
       def all
         @all ||= []
       end
+      
+      def clear
+      	@all = []
+      end
 
     end
 
